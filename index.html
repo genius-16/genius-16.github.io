@@ -1,10 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SHILIU</title>
+    <!-- 引入 CSS 文件 -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- 引入 Google Fonts (可选) -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Hello, World!</h1>
-    <p>Welcome to my world!</p>
+    <header>
+        <h1>欢迎来到我的网站</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#projects">项目</a></li>
+                <li><a href="#contact">联系我</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>关于我</h2>
+            <p>你好！我是SHILIU，一个热爱编程和设计的开发者。</p>
+            <img src="images/placeholder.png" alt="我的照片">
+        </section>
+
+        <section id="projects">
+            <h2>我的项目</h2>
+            <div class="project">
+                <h3>项目一</h3>
+                <p>项目一的描述。</p>
+            </div>
+            <div class="project">
+                <h3>项目二</h3>
+                <p>项目二的描述。</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>联系我</h2>
+            <form id="contact-form">
+                <label for="name">姓名:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">邮箱:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">留言:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">发送</button>
+            </form>
+            <p id="form-response"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 [你的名字]. 保留所有权利。</p>
+    </footer>
+
+    <!-- 引入 JavaScript 文件 -->
+    <script src="scripts.js"></script>
 </body>
 </html>
