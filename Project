@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <h1 id="name">SHILIU</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="project.html">Project</a></li>
+            <li><a href="sketch.html">Sketch</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="work.html">Work</a></li>
+        </ul>
+    </nav>
+
+    <section id="project-gallery">
+        <h2>My Projects</h2>
+        <!-- 这里展示项目内容 -->
+        <div class="project-item">
+            <img src="project1.png" alt="Project 1">
+            <h3>Project Title 1</h3>
+        </div>
+        <!-- 继续添加更多项目 -->
+    </section>
+</body>
+</html>
